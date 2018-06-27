@@ -1,0 +1,2 @@
+# FakeADFS
+When developing Asp.Net Core applications for deployment in Linux or Docker environments, applications are no longer able to be configured to use Windows Authentication. Many organizations have an ADFS implementation that applications can authenticate off of, but during development there are issues with ADFS. This is a small set of applications that represent a dummy ADFS implementation that removes restrictions while developing locally. 
